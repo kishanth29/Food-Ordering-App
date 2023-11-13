@@ -16,11 +16,7 @@ export default function BottomTabs() {
 }
 const Icon = (props) => (
     <View style={{ alignItems: "center" }}>
-        <FontAwesome5
-            name={props.icon}
-            size={22}
-            color="grey"
-            style={styles.iconStyle} />
+        <FontAwesome5 name={props.icon} size={22} color="grey" style={styles.iconStyle} />
         <Text style={styles.textStyle}>{props.text}</Text>
     </View>
 );

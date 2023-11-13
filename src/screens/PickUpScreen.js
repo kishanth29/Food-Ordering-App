@@ -103,14 +103,12 @@ function PickUpScreen() {
             <MapView ref={mapRef} provider={PROVIDER_GOOGLE}
                 showsUserLocation={true}
                 followsUserLocation={true}
-                initialRegion={
-                    {
-                        latitude: 37.773972,
-                        longitude: -122.431297,
-                        latitudeDelta: 0.07,
-                        longitudeDelta: 0.07
-                    }
-                }
+                initialRegion={{
+                    latitude: 37.773972,
+                    longitude: -122.431297,
+                    latitudeDelta: 0.07,
+                    longitudeDelta: 0.07
+                }}
                 customMapStyle={[
                     {
                         "featureType": "landscape",

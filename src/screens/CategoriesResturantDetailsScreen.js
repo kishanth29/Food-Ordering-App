@@ -706,14 +706,12 @@ const CategoriesResturantDetailsScreen = ({ route }) => {
                     </>
                 ) : (<MapView style={styles.mapViewStyle}
                     provider={PROVIDER_GOOGLE}
-                    initialRegion={
-                        {
-                            latitude: 32.732346,
-                            longitude: -117.196053,
-                            latitudeDelta: 0.07,
-                            longitudeDelta: 0.07
-                        }
-                    }
+                    initialRegion={{
+                        latitude: 32.732346,
+                        longitude: -117.196053,
+                        latitudeDelta: 0.07,
+                        longitudeDelta: 0.07
+                    }}
                     customMapStyle={[
                         {
                             "featureType": "landscape",
