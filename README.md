@@ -19,6 +19,9 @@ The Food Ordering App is a cross-platform mobile application built with React Na
 ![Screenshot4](assets/screenshot4.jpeg)
 ![Screenshot5](assets/screenshot5.jpeg)
 ![Screenshot6](assets/screenshot6.jpeg)
+![Screenshot7](assets/screenshot7.jpeg)
+![Screenshot8](assets/screenshot5.jpeg)
+![Screenshot9](assets/screenshot9.jpeg)
 
 ## Installation
 
