@@ -44,3 +44,27 @@ The Food Ordering App is a cross-platform mobile application built with React Na
 5. **Start the application**:
    ```bash
    npm start
+
+## Usage
+
+1. **Sign Up / Login**: Create an account or log in.
+2. **Browse Restaurants**: Explore nearby restaurants and their offerings.
+3. **Order Food**: Add items to your cart and place an order.
+4. **Track Orders**: Track your orders in real-time.
+5. **Manage Profile**: Update profile information and view order history.
+
+## Contributing
+
+Contributions are welcome! Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+3. Make changes and commit them:
+   ```bash
+   git commit -m 'Add feature'
+4. Push to the branch:
+   ```bash
+   git push origin feature-branch
+5. Open a Pull Request.
