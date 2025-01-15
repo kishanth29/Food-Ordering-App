@@ -14,7 +14,12 @@ function App() {
   return (
     <>
       <RootNavigation />
-      <StatusBar barStyle="light-content" backgroundColor="black" hidden={false} translucent={true} />
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="black"
+        hidden={false}
+        translucent={true}
+      />
     </>
   );
 }

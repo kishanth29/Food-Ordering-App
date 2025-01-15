@@ -1,49 +1,120 @@
 {
   "project_info": {
-    "project_number": "1056296867501",
-    "project_id": "uber-eats-clone-1428c",
-    "storage_bucket": "uber-eats-clone-1428c.appspot.com"
+    "project_number": "223483236626",
+    "project_id": "food-2cf97",
+    "storage_bucket": "food-2cf97.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1056296867501:android:b1f2bb7ccb061d53fd9824",
+        "mobilesdk_app_id": "1:223483236626:android:f87b3cffdf1ec7ae7e63cb",
         "android_client_info": {
-          "package_name": "com.ubereats"
+          "package_name": "com.company.delivery"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1056296867501-mohgdb5a382hoofoh0hgtvis959u02oj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.ubereats",
-            "certificate_hash": "fabb038cf978f3a2a07108f5613800552e5a010b"
-          }
-        },
-        {
-          "client_id": "1056296867501-ulh5mds4of4rrps7v26lpmpj1ifca7g3.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.ubereats",
-            "certificate_hash": "0d94e46b082781c67ac2d5414b53903c2dafbdf0"
-          }
-        },
-        {
-          "client_id": "1056296867501-g66koo12mvr0t0cd9csuhsuske4i8smf.apps.googleusercontent.com",
+          "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyChrj4Jj8YOUzJZuE03JoC3F5FEx4UavAg"
+          "current_key": "AIzaSyCM45532-x_JTTlQdNnnUQ8R-BiUR9P8HI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1056296867501-g66koo12mvr0t0cd9csuhsuske4i8smf.apps.googleusercontent.com",
+              "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223483236626:android:1b105c72c7712b527e63cb",
+        "android_client_info": {
+          "package_name": "com.final.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM45532-x_JTTlQdNnnUQ8R-BiUR9P8HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223483236626:android:a73cd69a0bf26d807e63cb",
+        "android_client_info": {
+          "package_name": "com.foody.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM45532-x_JTTlQdNnnUQ8R-BiUR9P8HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223483236626:android:777f3137cf3e37287e63cb",
+        "android_client_info": {
+          "package_name": "com.killer.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM45532-x_JTTlQdNnnUQ8R-BiUR9P8HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223483236626-sfmbeiqkco82831745b0guhndre6qani.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -51,5 +122,6 @@
       }
     }
   ],
+  
   "configuration_version": "1"
 }
