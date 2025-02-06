@@ -8,6 +8,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/config-plugins": "^9.0.14",
     "@gorhom/bottom-sheet": "^4.4.5",
     "@react-native-async-storage/async-storage": "1.17.11",
     "@react-native-community/netinfo": "9.3.7",
@@ -26,10 +27,13 @@
     "aws-amplify": "^5.0.12",
     "aws-amplify-react-native": "^7.0.2",
     "expo": "~48.0.21",
+    "expo-dev-client": "~2.2.1",
+    "expo-local-authentication": "~13.3.0",
     "expo-location": "~15.1.1",
     "expo-navigation-bar": "~2.1.1",
+    "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
-    "expo-updates": "~0.16.4",
+    "expo-updates": "^0.26.16",
     "firebase": "^9.17.2",
     "lottie-react-native": "5.1.4",
     "react": "18.2.0",
@@ -48,9 +52,7 @@
     "react-native-video": "^5.2.1",
     "react-redux": "^8.0.5",
     "redux": "^4.2.1",
-    "tslib": "^2.5.0",
-    "expo-dev-client": "~2.2.1",
-    "expo-splash-screen": "~0.18.2"
+    "tslib": "^2.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

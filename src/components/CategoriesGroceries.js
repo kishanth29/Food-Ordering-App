@@ -8,7 +8,7 @@ const CategoriesGrocery = () => {
             <Text style={styles.titleTextStyle}>All stores</Text>
             <GroceryResturants />
             <View style={styles.descriptionTextContainer}>
-                <Text style={styles.descriptionTextStyle}>Uber is paid by merchants for marketing and promotion, which influences the personalised recommendations you see. Learn more or change settings</Text>
+                <Text style={styles.descriptionTextStyle}>Uva Eats is paid by merchants for marketing and promotion, which influences the personalised recommendations you see. Learn more or change settings</Text>
             </View>
         </View>
     );

@@ -21,8 +21,8 @@ const HomeGroceries = ({ groceriesData }) => {
                     </View>
                     <View style={[styles.textContainerStyle, groceriesData.selectedText === "" && { marginTop: 8 }]}>
                         <Text style={styles.textStyle}>{groceriesData.text}</Text>
-                        <Text style={[styles.timeTextStyle, groceriesData.selectedText === "" && { marginTop: 6 }]}>{groceriesData.time}</Text>
-                        <Text style={styles.selectedTextStyle}>{groceriesData.selectedText}</Text>
+                        <Text style={[styles.timeTextStyle, groceriesData.selectedText === "" && { marginTop: 6 }]}></Text>
+                        <Text style={styles.selectedTextStyle}></Text>
                     </View>
                 </View>
             </Pressable>

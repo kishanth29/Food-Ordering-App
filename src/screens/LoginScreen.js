@@ -45,7 +45,7 @@ const LoginScreen = () => {
         <View>
             <Image source={require("../../assets/images/background.jpg")} style={styles.imageStyle} />
             <View>
-                <Text style={styles.textStyle}>Get Started with Uber Eats</Text>
+                <Text style={styles.textStyle}>Get Started with Uva Eats</Text>
                 <TouchableOpacity style={styles.buttonContainer}
                     onPress={() => signInWithGoogle()}>
                     <Text style={styles.buttonText}>Sign in with Google</Text>

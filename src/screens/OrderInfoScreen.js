@@ -87,8 +87,8 @@ const OrderInfoScreen = ({ route }) => {
             {getTotal()}
           </Text>
         </View>
-        <View style={[styles.borderStyle, { marginTop: 20 }]} />
-        <View style={styles.promoTextContainer}>
+        {/* <View style={[styles.borderStyle, { marginTop: 20 }]} /> */}
+        {/* <View style={styles.promoTextContainer}>
           <Ionicons name="pricetag-sharp" size={25} />
           <View style={{ marginLeft: 20 }}>
             <Text style={styles.promoTextStyle}>Add a promo</Text>
@@ -100,7 +100,7 @@ const OrderInfoScreen = ({ route }) => {
               color="black"
             />
           </View>
-        </View>
+        </View> */}
         <View style={[styles.borderStyle, { marginTop: 25 }]} />
         <View style={styles.subTotalTextContainer}>
           <Text style={styles.subTotalTextStyle}>Subtotal</Text>

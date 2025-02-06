@@ -454,11 +454,11 @@ function HomeScreen() {
     <>
       <View style={styles.headerContainer}>
         <View style={{ marginLeft: 15 }}>
-          <Text style={{ fontWeight: "400" }}>Delivery now</Text>
-          <View style={styles.headerSubContainer}>
+          {/* <Text style={{ fontWeight: "400" }}>Delivery now</Text> */}
+          {/* <View style={styles.headerSubContainer}>
             <Text style={{ fontWeight: "500" }}>location</Text>
             <MaterialIcons name="keyboard-arrow-down" size={25} />
-          </View>
+          </View> */}
         </View>
         {/* <View style={{ marginRight: 15 }}>
           <HeaderTabs activeTab={activeTab} setActiveTab={setActiveTab} />

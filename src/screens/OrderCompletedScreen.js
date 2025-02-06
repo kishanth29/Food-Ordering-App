@@ -1,9 +1,11 @@
 import React from "react";
-import { View, Text, StatusBar, StyleSheet } from "react-native";
+import { View, Text, StatusBar, StyleSheet, Pressable } from "react-native";
 import LottieView from "lottie-react-native";
 import OrderItems from "../components/OrderItems";
+import { useNavigation } from "@react-navigation/native";
 
 const OrderCompletedScreen = ({ route }) => {
+  const navigation = useNavigation();
   const { item, getTotal } = route.params;
   return (
     <>
@@ -33,6 +35,14 @@ const OrderCompletedScreen = ({ route }) => {
           speed={0.5}
           loop={true}
         />
+        <Pressable
+          style={styles.buttonContainer}
+          onPress={() => {
+            navigation.navigate("Home", {});
+          }}
+        >
+          <Text style={styles.buttonTextStyle}>Home </Text>
+        </Pressable>
       </View>
     </>
   );
@@ -57,5 +67,21 @@ const styles = StyleSheet.create({
     marginTop: "auto",
     height: 180,
     alignSelf: "center",
+  },
+  buttonTextStyle: {
+    fontSize: 18,
+    fontWeight: "500",
+    color: "black",
+  },
+  buttonContainer: {
+    width: "92%",
+    height: 55,
+    marginBottom: 15,
+    marginTop: 240,
+    alignSelf: "center",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#06c167",
+    borderRadius: 10,
   },
 });

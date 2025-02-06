@@ -10,7 +10,7 @@ const items = {
     resturant: require("../../assets/images/resturant.png"),
     grocery: require("../../assets/images/grocery.png"),
     alcohol: require("../../assets/images/alcohol.png"),
-    ride: require("../../assets/images/ride.png"),
+    // ride: require("../../assets/images/ride.png"),
     icecream: require("../../assets/images/icecream.png")
 };
 
@@ -20,8 +20,8 @@ function ModalCategories(props) {
             {items[props.item1] && (
                 <Pressable style={{ alignItems: "center" }}>
                     <View style={[styles.subContainer, { marginLeft: 12 }]}>
-                        <View style={[styles.imageContainer, props.text1 === "Ride" && { marginLeft: 15, marginBottom: 10 }]}>
-                            <Image source={items[props.item1]} style={[styles.imageStyle, props.text1 === "Ride" && { width: 100, height: 100 }, props.text1 === "Alcohol" && { width: 40, height: 45 }, props.text1 === "Pharmacy" && { width: 40, height: 45, resizeMode: "cover" }]} />
+                        <View >
+                            <Image source={items[props.item1]} style={[styles.imageStyle, props.text1 === "Alcohol" && { width: 40, height: 45 }, props.text1 === "Pharmacy" && { width: 40, height: 45, resizeMode: "cover" }]} />
                         </View>
                     </View>
                     <Text style={[styles.textStyle, { marginLeft: 12 }]}>{props.text1}</Text>
